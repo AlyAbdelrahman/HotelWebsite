@@ -1,0 +1,33 @@
+.rounded_btn{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    margin-left: 11.6rem;
+    transform: rotate(-138deg);
+    background-image: linear-gradient(to right, #3970DB, #19C4DD);
+    #mouse{
+        text-align: center;
+        transform: rotate(-222deg);
+        color: white;
+        margin: 1.8rem;
+        background-image: none;
+        }
+  
+}
+
+ .fixed_color_option .rounded_btn{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    margin-left: 11.6rem;
+    transform: rotate(-138deg);
+    background-color: white;
+    background-image: unset;
+     #mouse{
+        text-align: center;
+        transform: rotate(-222deg);
+        color: #3381DC;
+        margin: 1.8rem;
+        background-image: none;
+        }
+}

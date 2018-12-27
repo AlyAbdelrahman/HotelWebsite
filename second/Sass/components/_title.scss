@@ -1,0 +1,22 @@
+.title{
+    width: 100%;
+    text-align: center;
+    margin: 4.5rem auto;
+    padding: auto;
+    &__header {
+        margin-top: 4.5rem;
+      
+        color: $h_color;
+        font-size: 2.8rem;
+    }
+
+    &__paragraph{
+        margin-bottom: 3rem;
+        color: #6F8BA4;
+        text-align: center;
+        width: 50%;
+        margin-left: 27%;
+        color: $p_color;
+    } 
+    
+}

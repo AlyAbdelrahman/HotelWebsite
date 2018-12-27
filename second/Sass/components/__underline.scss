@@ -1,0 +1,39 @@
+
+.underline{
+    display: flex;
+    position: relative;
+    // width: 75px;
+    width: fit-content;
+    
+
+
+&:hover{
+    .underline__line{
+        background-color: green;
+        left: 0%;
+        right: 0%;
+    }    
+}
+
+&__word{
+    color: blue;
+    
+}
+
+&__line{
+    transition:all .5s linear;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 50%;
+    right: 50%;
+    height: 10px;  
+    background-color: red; 
+
+}
+
+
+
+
+
+}

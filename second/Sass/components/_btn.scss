@@ -1,0 +1,37 @@
+
+.button {
+    background-color: white;
+    color: #5787E8;
+    text : {
+        align: center;
+        decoration: none;
+           }
+    font-size:1.4rem;
+    cursor: pointer; 
+    border : .2rem solid #299cdc;
+    border-radius: 1.8rem;
+    padding: .6rem 2.9rem;
+    transition: all .2s ease-out;
+    &:hover{
+        background-color: #5787E8;
+        color: white;}
+    &__API{
+         background-color:rgba(96, 96, 224, 0.445);
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        width: 15%;
+        border: .1rem solid #ffffff;
+        border-radius: 1.8rem;
+        padding: .6rem 2.9rem;
+        transition: all .2s ease-out;
+        margin-right: 8rem;
+
+        &:hover{
+            background-color:white;
+            color: #4278E5;
+        }
+    }
+}

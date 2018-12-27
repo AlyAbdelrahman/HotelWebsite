@@ -1,0 +1,148 @@
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F8FB;
+    justify-content: space-around;
+    justify-items: center;
+
+    &-up
+    {
+        display: flex;
+        margin: 10%;
+        justify-items: center;
+        justify-content: space-evenly;
+
+        &-info
+        {
+            width: 54rem;;
+
+            &-details{
+                
+            &__paragraph
+            {
+                margin-top: 3rem;
+            }
+            }
+        }
+
+        &-helpful-links{
+
+           
+                &__header{
+                    font-weight: 400;
+                    font-size: 1.6rem;
+                    color: #3B566E;
+                    letter-spacing: 0.069rem;
+                    line-height: 3rem;
+                    margin-bottom: 3rem !important;
+                }
+
+                &-details{
+
+                &__list
+                {
+                    line-height: 32px;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    color: #6F8BA4;
+                    margin:1rem;
+                   
+                    &:hover{
+                        color: #0056b3;
+                    }
+
+                    &::before
+                    {
+                        margin-right: .8rem;
+                    content: "\f105";
+                    font-family: FontAwesome;
+                    }
+                }
+
+             }
+
+
+        }
+
+
+        &-features-links{
+            &__header{
+                font-weight: 400;
+                font-size: 1.6rem;
+                text-align: center;
+                color: #3B566E;
+                letter-spacing: 0.069rem;
+                line-height: 3rem;
+                margin-bottom: 3rem !important;
+            }
+
+            &-details{
+
+                &__list
+                {
+                    line-height: 32px;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    color: #6F8BA4;
+                    margin:1rem;
+                    &:hover{
+                        color: #0056b3;
+                    }
+
+                    &::before
+                    {
+                        margin-right: .8rem;
+                    content: "\f105";
+                    font-family: FontAwesome;
+                    }
+                }
+
+             }
+
+        }
+
+
+        &-contact-links{
+            &__header
+            {
+                font-weight: 400;
+                font-size: 1.6rem;
+                color: #3B566E;
+                letter-spacing: 0.069rem;
+                line-height: 3rem;
+                margin-bottom: 3rem !important;
+
+            }
+
+            &-details{
+                &__list
+                {
+                    line-height: 32px;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    color: #6F8BA4;
+                    margin:.1rem;
+                    &__email{
+                        color: #0056b3; 
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+
+    &-down{
+        &__header{
+        text-align: center;
+        border-top: 1px solid #DAE6FD;
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #6F8BA4;
+        letter-spacing: 0.88px;}
+    }
+}

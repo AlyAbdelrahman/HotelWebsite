@@ -1,0 +1,103 @@
+//.row1 .services 
+.service-option{
+    transition: all 0.1s ease-in-out;
+    background-image: url("../images/features-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 61%;
+    background-position-x: 6.3rem;
+    background-position-y: 0rem;
+    box-shadow: .5px .7px 3.2rem -.9rem #888888;
+    height: 46.5rem;
+    width: 29rem; 
+    background-color: white;  
+    border-radius: .5rem;
+    margin:1rem; 
+    h5{
+        font : {
+            size: 2rem;
+            weight: 400;
+            color: $h_color;
+        }
+        padding-left: 5rem;
+    }
+    p{
+    margin: 3.8rem;
+    color: $p_color;
+    text-align: center;
+    font-weight: 400;
+    }
+   
+    
+    &:hover{
+    transform: translate(0px, -10px);
+    box-shadow: .5rem .7rem 3.2rem -.9rem #888888;
+    background-image: url(../images/features-bg.svg), linear-gradient(180deg, #17CADD 0%, #4A45DA 104%);
+    background-repeat: no-repeat,repeat;
+    color: white;
+        i.fa {
+            color: white;
+        }
+        .rounded_btn{
+            background-image:linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255));;
+            background-color: white;
+             #mouse{
+                color: #3381DC;
+                background-image: none;
+                }
+        }
+        h5{
+            font : { 
+                weight: 400;
+                color: #ffffff;
+                   }
+        }
+        p{
+        color: #C7E5FF;
+        font-weight:400;
+        }
+    
+    
+    
+            }
+  
+     
+}
+
+
+
+
+
+
+
+
+ .fixed_color_option{
+  
+        box-shadow: .5rem .7rem 3.2rem -.9rem #888888;
+        height: 46.5rem;
+        width: 29rem;
+        border-radius: .5rem;
+        margin:1rem; 
+        background-image: url(../images/features-bg.svg), linear-gradient(180deg, #17CADD 0%, #4A45DA 100%);
+        background-repeat: no-repeat,repeat;
+        background-size: 61%;
+        background-position-x: 6.3rem;
+        background-position-y: 0px;
+        color: white;
+       
+       
+        h5{
+            font : {
+                size: 2rem;
+                weight: 400;
+                color: #ffffff;
+            }
+            padding-left: 5rem;
+        }
+        p{
+        margin: 3.8rem;
+        color: #C7E5FF;
+        font-weight:400;
+        text-align: center;}
+   
+        
+    }

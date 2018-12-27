@@ -1,0 +1,30 @@
+.info-numbers{
+    position: relative;
+    margin: 7rem;
+    width: 10%;
+   top:.1rem;
+   transition: all .5s ease-in-out;
+    h1{
+        margin-top: 0%; 
+        margin-left: 0;
+        margin-bottom: 0px; 
+        text-align: center;
+        color:white;
+        font-size: 50px;
+    }
+    p {
+       
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+        font-size: 2rem;
+        letter-spacing: 0.086rem;
+        
+    }
+  
+    &:hover{
+        top:-1.5rem;
+    }
+
+
+}

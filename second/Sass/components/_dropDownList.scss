@@ -1,0 +1,45 @@
+
+.topheader .nav .dropList{
+    position: absolute;
+    width: 200px;
+    color: #6F8BA4;
+    z-index: 10;
+    text-align: left;
+    background-color: #FFFFFF;
+    list-style: none;
+    text-align: left;
+    border-radius:.8rem;
+    box-shadow: 0 .2rem 2.8rem 0 rgba(0, 0, 0, 0.06);
+     transition: all .1s ease-in;
+    visibility: hidden; overflow: hidden;
+    z-index: 15;
+    /* transform: translateY(-2em); */
+    /* opacity: 1; */
+    li{
+        transition: border-left-color, border-left-style, background, padding-left  .2s ease-in;
+        &:hover{
+
+           
+            border-left-color: coral;
+            border-left-style: solid;
+            background: #f5f5f5;
+             padding-left: 1.5rem;
+             overflow: hidden;
+           
+        
+    }
+    a{
+        text-align: left;
+        color: #3B566E;
+        padding: 1.1rem .1rem 1.2rem .8rem;
+        list-style: none;
+        display: inline-block;
+        padding-right: 3.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        overflow: hidden;
+        
+    }}
+
+}
+

@@ -1,0 +1,43 @@
+//ay key fram el 5at yege kda wa b3den yrg3 tane 
+// .pic .picc{
+//     height: 48px;
+//     width: 48px;
+//     border-radius: 10px;
+    
+//     z-index: 5;
+//     background-image: linear-gradient(#6C7FE3, #52C1E4);
+//     transform: rotate(156deg);
+// }
+
+@keyframes blink {
+
+    0%{
+        opacity: 0.1;
+        text-shadow: 0rem 0rem .3rem rgba(0, 0, 0, 0); 
+    }
+    50% {
+        opacity: 1;
+        text-shadow: -.2rem .6rem 1.2rem rgba(0, 0, 0, 0.3);
+      }
+
+	 100%   {
+    opacity: 0.1;
+    text-shadow: 0rem 0rem .3rem rgba(0, 0, 0, 0);
+  }
+	
+}
+
+
+
+@keyframes slide{
+    0%{
+     //   left: 0px;
+     transform: translateX(0rem)
+    }
+
+    100%{
+        transform: translateX(-266.7rem)
+
+      // left: -266.7rem;
+    }
+}

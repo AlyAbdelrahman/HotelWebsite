@@ -1,0 +1,48 @@
+.blog-info
+{
+    width: 30rem;
+    text-align: center;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    margin: 2rem;
+   // height: 80rem;
+    
+    &__image-box
+    {
+        border-radius: 1rem;
+        overflow: hidden;
+        width: 100%;
+        height: 16rem; 
+        margin-bottom: 2rem;   
+  
+        &:hover
+        {
+            .blog-info__image
+            {
+                transform: scale(1.5);
+            }
+        }
+    }
+    &__image
+    {
+        width: 100%;
+        transition: all .3s;
+        margin-bottom: .4rem;
+    }
+
+    &__title
+    { letter-spacing: .1rem;
+        line-height: 2.3rem;
+       color: rgb(59, 86, 110);
+       margin-bottom: 1rem;
+    }
+
+    &__desc
+    {
+        color: rgb(111, 139, 164);
+        margin-bottom: 2rem;
+     }
+
+
+
+}
